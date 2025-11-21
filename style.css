@@ -1,0 +1,1222 @@
+/* --- Declaración de Krona One --- */
+@font-face {
+  /* Este nombre debe coincidir EXACTAMENTE con el font-family que usas en el CSS */
+  font-family: "Krona One-Regular";
+  /* La ubicación de tu archivo de fuente */
+  src: url('./fonts/KronaOne-Regular.ttf') format('truetype');
+  font-weight: 400; /* Peso de fuente regular */
+  font-style: normal;
+}
+
+/* --- Declaración de Konkhmer Sleokchher --- */
+@font-face {
+  font-family: "Konkhmer Sleokchher-Regular";
+  src: url('./fonts/KonkhmerSleokchher-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* --- Declaración de Kirang Haerang --- */
+@font-face {
+  font-family: "Kirang Haerang-Regular";
+  src: url('./fonts/KirangHaerang-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ... el resto de tu código CSS ... */
+
+.krona-one-regular {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kirang-haerang-regular {
+  font-family: "Kirang Haerang", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.MAIN {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+  min-width: 1920px;
+  min-height: 3252px;
+}
+
+.MAIN .div {
+  position: relative;
+  width: 1920px;
+  height: 3252px;
+  background-color: #000000;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.MAIN .div::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.MAIN .NAME-PAGE {
+  position: absolute;
+  top: 116px;
+  left: 175px;
+  width: 1286px;
+  height: 328px;
+  display: flex;
+    background-image: url(./img/recursos/LOGO\ PAGINA.png);
+}
+
+.MAIN .LOGO-PAGINA-wrapper {
+  width: 1286px;
+  height: 328px;
+  display: flex;
+  overflow: hidden;
+    background-image: url(./img/recursos/LOGO\ PAGINA.png);
+}
+
+.MAIN .LOGO-PAGINA {
+  margin-top: -379px;
+  width: 1135px;
+  height: 1135px;
+  margin-left: 56px;
+  aspect-ratio: 1;
+  object-fit: cover;
+    background-image: url(./img/recursos/LOGO\ PAGINA.png);
+}
+
+.MAIN .PIE-DE-PAGINA {
+  position: absolute;
+  top: 496px;
+  left: 124px;
+  width: 590px;
+  height: 52px;
+  display: flex;
+  font-family: "Krona ne";
+}
+
+.MAIN .text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 590px;
+  height: 52px;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MAIN .BANNER {
+  position: absolute;
+  top: 558px;
+  left: 69px;
+  width: 1778px;
+  height: 914px;
+  background-image: url(./img/recursos/BANNER\ PORTAFOLIO\ EDIT.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.MAIN .TITULO-MENU {
+  position: absolute;
+  top: 1529px;
+  left: 194px;
+  width: 457px;
+  height: 349px;
+}
+
+.MAIN .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  width: 433px;
+  height: 196px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Konkhmer Sleokchher-Regular";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MAIN .text-wrapper-3 {
+  position: absolute;
+  top: 142px;
+  left: 0;
+  width: 457px;
+  height: 207px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Kirang Haerang";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 128px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MAIN .OPC-MENU {
+  position: absolute;
+  top: 1840px;
+  left: 149px;
+  width: 373px;
+  height: 369px;
+}
+
+.MAIN .vector {
+  position: absolute;
+  top: 29px;
+  left: 48px;
+  width: 1px;
+  height: 340px;
+}
+
+.MAIN .text-wrapper-4 {
+  position: absolute;
+  top: 229px;
+  left: 125px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MAIN .group {
+  width: 65.68%;
+  height: 12.20%;
+  top: 27.91%;
+  left: 27.88%;
+  position: absolute;
+  display: flex;
+}
+
+.MAIN .text-wrapper-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 243px;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MAIN .div-wrapper {
+  top: 180px;
+  left: 104px;
+  width: 218px;
+  height: 45px;
+  position: absolute;
+  display: flex;
+}
+
+.MAIN .text-wrapper-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 216px;
+  height: 45px;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MAIN .group-2 {
+  top: 283px;
+  left: 103px;
+  width: 233px;
+  height: 45px;
+  position: absolute;
+  display: flex;
+}
+
+.MAIN .text-wrapper-7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 231px;
+  height: 45px;
+  margin-left: 0;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MAIN .img {
+  position: absolute;
+  top: 34px;
+  left: 0;
+  width: 334px;
+  height: 1px;
+}
+
+.MAIN .star {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  width: 62px;
+  height: 68px;
+}
+
+.MAIN .ESTRELLA-ANIMADA {
+  top: 78px;
+  left: 63px;
+  background-image: url(./img/recursos/star-2-25.svg);
+  position: absolute;
+  width: 46px;
+  height: 50px;
+  background-size: 100% 100%;
+}
+
+.MAIN .ESTRELLA-ANIMADA-2 {
+  top: 158px;
+  left: 63px;
+  background-image: url(./img/recursos/star-3-27.svg);
+  position: absolute;
+  width: 46px;
+  height: 50px;
+  background-size: 100% 100%;
+}
+
+.MAIN .ESTRELLA-ANIMADA-3 {
+  top: 254px;
+  left: 66px;
+  background-image: url(./img/recursos/star-1-23.svg);
+  position: absolute;
+  width: 46px;
+  height: 50px;
+  background-size: 100% 100%;
+}
+
+.MAIN .INTRO {
+  position: absolute;
+  top: 1161px;
+  left: 646px;
+  width: 1274px;
+  height: 1361px;
+}
+
+.MAIN .frame {
+  position: absolute;
+  top: 0;
+  left: 399px;
+  width: 758px;
+  height: 980px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.MAIN .INTRO-PAGINA {
+  margin-top: -222px;
+  margin-left: -216px;
+  width: 1424px;
+  margin-bottom: -222px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.MAIN .component {
+  position: absolute;
+  top: 625px;
+  left: 62px;
+  width: 735px;
+  height: 666px;
+  transform: rotate(12.17deg);
+  background-image: url(./img/recursos/RECURSO\ PAPEL.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.MAIN .component-2 {
+  position: absolute;
+  top: 717px;
+  left: 676px;
+  width: 598px;
+  height: 590px;
+  aspect-ratio: 1.02;
+  background-image: url(./img/recursos/IDIOMAS\ PORTAFOLIO.png);
+  background-size: 100% 100%;
+}
+
+.MAIN .STICKER {
+  position: absolute;
+  top: 2245px;
+  left: 20px;
+  width: 1179px;
+  height: 1159px;
+  display: flex;
+}
+
+.MAIN .STICKER-PORTAFOLIO-wrapper {
+  margin-top: 135.0px;
+  width: 923px;
+  height: 889px;
+  margin-left: 127.8px;
+  transform: rotate(-20.81deg);
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.MAIN .STICKER-PORTAFOLIO {
+  margin-top: -91.1px;
+  margin-left: 44.8px;
+  width: 998.62px;
+  margin-bottom: 133.4px;
+  transform: rotate(20.81deg);
+  aspect-ratio: 1.01;
+  object-fit: cover;
+}
+
+.MAIN .component-3 {
+  position: absolute;
+  top: 1909px;
+  left: -245px;
+  width: 205px;
+  height: 176px;
+  display: flex;
+  gap: 70px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.MAIN .propiedad-star {
+  margin-top: 116.9px;
+  position: relative;
+  margin-left: 23.0px;
+  width: 46px;
+  height: 50px;
+}
+
+.MAIN .estrella-edit {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -9.79%;
+  left: -23.84%;
+}
+
+.MAIN .propiedad-star-2 {
+  margin-top: 20px;
+  background-image: url(./img/recursos/star-2-25.svg);
+  background-size: 100% 100%;
+  width: 46px;
+  height: 50px;
+}
+
+.MAIN .component-4 {
+  position: absolute;
+  top: 2009px;
+  left: -225px;
+  width: 203px;
+  height: 155px;
+  display: flex;
+  gap: 71px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.MAIN .star-wrapper {
+  margin-top: 85px;
+  position: relative;
+  margin-left: 20px;
+  width: 46px;
+  height: 50px;
+}
+
+.MAIN .star-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -18.00%;
+  left: -23.91%;
+}
+
+.MAIN .propiedad-star-3 {
+  margin-top: 20px;
+  width: 46px;
+  height: 50px;
+  background-image: url(./img/recursos/star-3-27.svg);
+  background-size: 100% 100%;
+}
+
+.MAIN .component-5 {
+  position: absolute;
+  top: 2049px;
+  left: -194px;
+  width: 178px;
+  height: 90px;
+  display: flex;
+  gap: 41px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.MAIN .GIRAR-y-COLOR-wrapper {
+  margin-top: 7px;
+  position: relative;
+  margin-left: 25px;
+  width: 46px;
+  height: 50px;
+}
+
+.MAIN .GIRAR-y-COLOR {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 28.00%;
+  left: -58.70%;
+}
+
+.MAIN .propiedad-star-4 {
+  margin-top: 20px;
+  width: 46px;
+  height: 50px;
+  background-image: url(./img/recursos/star-4-29.svg);
+  background-size: 100% 100%;
+}
+
+.MAIN .component-6 {
+  position: absolute;
+  top: 1545px;
+  left: -1340px;
+  width: 1248px;
+  height: 1579px;
+  display: flex;
+  flex-direction: column;
+  gap: 6.9px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.MAIN .propiedad-frame {
+  margin-left: 81.9px;
+  width: 735px;
+  height: 666px;
+  margin-top: 90.0px;
+  transform: rotate(12.17deg);
+  background-image: url(./img/propiedad-1-frame-10.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.MAIN .propiedad-frame-2 {
+  margin-left: 351.2px;
+  width: 846.12px;
+  height: 761.98px;
+  transform: rotate(4.77deg);
+  background-image: url(./img/propiedad-1-frame-11.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.MAIN .component-7 {
+  position: absolute;
+  top: 2779px;
+  left: -768px;
+  width: 703px;
+  height: 1194px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.MAIN .propiedad-IDIOMAS {
+  top: 513px;
+  left: 20px;
+  width: 663px;
+  height: 661px;
+  aspect-ratio: 1;
+  background-image: url(./img/recursos/IDIOMAS\ PORTAFOLIO.png);
+  position: absolute;
+  background-size: 100% 100%;
+}
+
+.MAIN .propiedad-IDIOMAS-2 {
+  top: 20px;
+  left: 62px;
+  width: 598px;
+  height: 590px;
+  aspect-ratio: 1.02;
+  background-image: url(./img/image.png);
+  position: absolute;
+  background-size: 100% 100%;
+}
+/* Inject original CSS from globals.css here */
+
+.MAIN {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+  min-width: 1920px;
+  min-height: 3252px;
+}
+
+.MAIN .div {
+  position: relative;
+  width: 1920px;
+  height: 3252px;
+  background-color: #000000;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.MAIN .div::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.MAIN .NAME-PAGE {
+  position: absolute;
+  top: 116px;
+  left: 175px;
+  width: 1286px;
+  height: 328px;
+  display: flex;
+}
+
+.MAIN .LOGO-PAGINA-wrapper {
+  width: 1286px;
+  height: 328px;
+  display: flex;
+  overflow: hidden;
+}
+
+.MAIN .LOGO-PAGINA {
+  margin-top: -379px;
+  width: 1135px;
+  height: 1135px;
+  margin-left: 56px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.MAIN .PIE-DE-PAGINA {
+  position: absolute;
+  top: 496px;
+  left: 124px;
+  width: 590px;
+  height: 52px;
+  display: flex;
+}
+
+.MAIN .text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 590px;
+  height: 52px;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 0;
+}
+
+.MAIN .BANNER {
+  position: absolute;
+  top: 558px;
+  left: 69px;
+  width: 1778px;
+  height: 914px;
+  background-image: url(./img/recursos/BANNER\ PORTAFOLIO\ EDIT.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.MAIN .TITULO-MENU {
+  position: absolute;
+  top: 1529px;
+  left: 194px;
+  width: 457px;
+  height: 349px;
+}
+
+.MAIN .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  width: 433px;
+  height: 196px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Kirang Haerang";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 0;
+}
+
+.MAIN .text-wrapper-3 {
+  position: absolute;
+  top: 142px;
+  left: 0;
+  width: 457px;
+  height: 207px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Kirang Haerang";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 128px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 0;
+}
+
+.MAIN .OPC-MENU {
+  position: absolute;
+  top: 1840px;
+  left: 149px;
+  width: 373px;
+  height: 369px;
+}
+
+.MAIN .vector {
+  position: absolute;
+  top: 29px;
+  left: 48px;
+  width: 1px;
+  height: 340px;
+}
+
+.MAIN .text-wrapper-4 {
+  position: absolute;
+  top: 229px;
+  left: 125px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MAIN .group {
+  width: 65.68%;
+  height: 12.20%;
+  top: 27.91%;
+  left: 27.88%;
+  position: absolute;
+  display: flex;
+}
+
+.MAIN .text-wrapper-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 243px;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.MAIN .text-wrapper-5:hover,
+.MAIN .text-wrapper-5:focus {
+  opacity: 0.8;
+}
+
+.MAIN .div-wrapper {
+  top: 180px;
+  left: 104px;
+  width: 218px;
+  height: 45px;
+  position: absolute;
+  display: flex;
+}
+
+.MAIN .text-wrapper-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 216px;
+  height: 45px;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.MAIN .text-wrapper-6:hover,
+.MAIN .text-wrapper-6:focus {
+  opacity: 0.8;
+}
+
+.MAIN .group-2 {
+  top: 283px;
+  left: 103px;
+  width: 233px;
+  height: 45px;
+  position: absolute;
+  display: flex;
+}
+
+.MAIN .text-wrapper-7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 231px;
+  height: 45px;
+  margin-left: 0;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.MAIN .text-wrapper-7:hover,
+.MAIN .text-wrapper-7:focus {
+  opacity: 0.8;
+}
+
+.MAIN .img {
+  position: absolute;
+  top: 34px;
+  left: 0;
+  width: 334px;
+  height: 1px;
+}
+
+.MAIN .star {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  width: 62px;
+  height: 68px;
+}
+
+.MAIN .ESTRELLA-ANIMADA {
+  top: 78px;
+  left: 63px;
+  background-image: url(./img/recursos/star-2-25.svg);
+  position: absolute;
+  width: 46px;
+  height: 50px;
+  background-size: 100% 100%;
+}
+
+.MAIN .ESTRELLA-ANIMADA-2 {
+  top: 158px;
+  left: 63px;
+  background-image: url(./img/recursos/star-3-27.svg);
+  position: absolute;
+  width: 46px;
+  height: 50px;
+  background-size: 100% 100%;
+}
+
+.MAIN .ESTRELLA-ANIMADA-3 {
+  top: 254px;
+  left: 66px;
+  background-image: url(./img/recursos/star-4-29.svg);
+  position: absolute;
+  width: 46px;
+  height: 50px;
+  background-size: 100% 100%;
+}
+
+.MAIN .INTRO {
+  position: absolute;
+  top: 1161px;
+  left: 646px;
+  width: 1274px;
+  height: 1361px;
+}
+
+.MAIN .frame {
+  position: absolute;
+  top: 0;
+  left: 399px;
+  width: 758px;
+  height: 980px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.MAIN .INTRO-PAGINA {
+  margin-top: -222px;
+  margin-left: -216px;
+  width: 1424px;
+  margin-bottom: -222px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  background-image: url(img/recursos/INTRO\ PAGINA.png);
+}
+
+.MAIN .component {
+  position: absolute;
+  top: 625px;
+  left: 62px;
+  width: 735px;
+  height: 666px;
+  transform: rotate(12.17deg);
+  background-image: url(./img/recursos/RECURSO\ PAPEL\ 1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ------------------------------------------------ */
+/* INTERACCIÓN 2: HABILIDADES E IDIOMAS (HOVER) */
+/* Colócalo al final de style.css */
+/* ------------------------------------------------ */
+
+/* HABILIDADES (Clase .component) */
+.MAIN .component {
+  /* Asegura la transición en el estado normal */
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  transform: rotate(12.17deg) scale(1);
+  /* Otras propiedades base deben estar definidas arriba */
+}
+
+.MAIN .component:hover {
+  /* Aplicamos el efecto al hacer hover */
+  transform: rotate(10deg) scale(1.05); /* Ligeramente más grande y rotación sutil */
+  opacity: 0.9;
+  /* Si tienes una imagen de fondo para el estado hover, la agregas aquí: */
+  background-image: url(./img/recursos/HABILIDADES\ 2.png);
+  /* background-image: url(./img/recursos/RECURSO PAPEL HOVER.png); */
+}
+
+.MAIN .component-2 {
+  position: absolute;
+  top: 717px;
+  left: 676px;
+  width: 598px;
+  height: 590px;
+  aspect-ratio: 1.02;
+  background-image: url(./img/recursos/RECURSO\ PAPEL.png);
+  background-size: 100% 100%;
+}
+
+/* IDIOMAS (Clase .component-2) */
+.MAIN .component-2 {
+  /* Asegura la transición en el estado normal */
+  transition: transform 0.5s ease;
+  transform: scale(1);
+  /* Otras propiedades base deben estar definidas arriba */
+}
+
+.MAIN .component-2:hover {
+  /* Aplicamos el efecto al hacer hover */
+  transform: scale(1.03); /* Ligeramente más grande */
+  /* Si tienes una imagen de fondo para el estado hover, la agregas aquí: */
+  background-image: url(./img/recursos/IDIOMAS\ PORTAFOLIO.png); 
+}
+
+.MAIN .STICKER {
+  position: absolute;
+  top: 2245px;
+  left: 20px;
+  width: 1179px;
+  height: 1159px;
+  display: flex;
+}
+
+.MAIN .STICKER-PORTAFOLIO-wrapper {
+  margin-top: 135.0px;
+  width: 923px;
+  height: 889px;
+  margin-left: 127.8px;
+  transform: rotate(-20.81deg);
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url(img/recursos/STICKER\ PORTAFOLIO.png);
+}
+
+.MAIN .STICKER-PORTAFOLIO {
+  margin-top: -91.1px;
+  margin-left: 44.8px;
+  width: 998.62px;
+  margin-bottom: 133.4px;
+  transform: rotate(20.81deg);
+  aspect-ratio: 1.01;
+  object-fit: cover;
+  background-image: url(img/recursos/STICKER\ PORTAFOLIO.png);
+}
+
+.MAIN .component-3 {
+  position: absolute;
+  top: 1909px;
+  left: -245px;
+  width: 205px;
+  height: 176px;
+  display: flex;
+  gap: 70px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.MAIN .propiedad-star {
+  margin-top: 116.9px;
+  position: relative;
+  margin-left: 23.0px;
+  width: 46px;
+  height: 50px;
+}
+
+.MAIN .estrella-edit {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -9.79%;
+  left: -23.84%;
+}
+
+.MAIN .propiedad-star-2 {
+  margin-top: 20px;
+  background-image: url(./img/recursos/star-2-25.svg);
+  background-size: 100% 100%;
+  width: 46px;
+  height: 50px;
+}
+
+.MAIN .component-4 {
+  position: absolute;
+  top: 2009px;
+  left: -225px;
+  width: 203px;
+  height: 155px;
+  display: flex;
+  gap: 71px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.MAIN .star-wrapper {
+  margin-top: 85px;
+  position: relative;
+  margin-left: 20px;
+  width: 46px;
+  height: 50px;
+}
+
+.MAIN .star-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -18.00%;
+  left: -23.91%;
+}
+
+.MAIN .propiedad-star-3 {
+  margin-top: 20px;
+  width: 46px;
+  height: 50px;
+  background-image: url(./img/recursos/star-3-27.svg);
+  background-size: 100% 100%;
+}
+
+.MAIN .component-5 {
+  position: absolute;
+  top: 2049px;
+  left: -194px;
+  width: 178px;
+  height: 90px;
+  display: flex;
+  gap: 41px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.MAIN .GIRAR-y-COLOR-wrapper {
+  margin-top: 7px;
+  position: relative;
+  margin-left: 25px;
+  width: 46px;
+  height: 50px;
+}
+
+.MAIN .GIRAR-y-COLOR {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 28.00%;
+  left: -58.70%;
+}
+
+.MAIN .propiedad-star-4 {
+  margin-top: 20px;
+  width: 46px;
+  height: 50px;
+  background-image: url(./img/recursos/star-4-29.svg);
+  background-size: 100% 100%;
+}
+
+.MAIN .component-6 {
+  position: absolute;
+  top: 1545px;
+  left: -1340px;
+  width: 1248px;
+  height: 1579px;
+  display: flex;
+  flex-direction: column;
+  gap: 6.9px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.MAIN .propiedad-frame {
+  margin-left: 81.9px;
+  width: 735px;
+  height: 666px;
+  margin-top: 90.0px;
+  transform: rotate(12.17deg);
+  background-image: url(./img/propiedad-1-frame-10.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.MAIN .propiedad-frame-2 {
+  margin-left: 351.2px;
+  width: 846.12px;
+  height: 761.98px;
+  transform: rotate(4.77deg);
+  background-image: url(./img/propiedad-1-frame-11.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.MAIN .component-7 {
+  position: absolute;
+  top: 2779px;
+  left: -768px;
+  width: 703px;
+  height: 1194px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.MAIN .propiedad-IDIOMAS {
+  top: 513px;
+  left: 20px;
+  width: 663px;
+  height: 661px;
+  aspect-ratio: 1;
+  background-image: url(./img/recursos/idiomas-portafolio-1-59.png);
+  position: absolute;
+  background-size: 100% 100%;
+}
+
+.MAIN .propiedad-IDIOMAS-2 {
+  top: 20px;
+  left: 62px;
+  width: 598px;
+  height: 590px;
+  aspect-ratio: 1.02;
+  background-image: url(./img/image.png);
+  position: absolute;
+  background-size: 100% 100%;
+}
+
+/* Necesitas la propiedad de transición en la regla base (que ya tienes) */
+.MAIN .ESTRELLA-ANIMADA {
+  /* Imagen original */
+  background-image: url(./img/recursos/star-2-25.svg);
+  transition: transform 0.4s ease; /* y otros estilos */
+}
+
+.MAIN .ESTRELLA-ANIMADA:hover {
+  /* CAMBIA A LA VERSIÓN VIOLETA AL HACER HOVER */
+  background-image: url(./img/recursos/ESTRELLA\ VIOLETA\ 2.png);
+  transform: rotate(-43.17deg);
+}
+.MAIN .ESTRELLA-ANIMADA-2 {
+    background-image: url(img/recursos/star-2-25.svg);
+    transition: transform 0.4s ease; /* y otros estilos */ 
+}
+.MAIN .ESTRELLA-ANIMADA-2:hover {
+  /* CAMBIA A LA VERSIÓN VIOLETA AL HACER HOVER */
+  background-image: url(./img/recursos/ESTRELLA\ VIOLETA\ 2.png);
+  transform: rotate(-43.17deg);
+}
+.MAIN.ESTRELLA-ANIMADA-3 {
+     background-image: url(./img/recursos/star-2-25.svg);
+  transition: transform 0.4s ease;
+}
+.MAIN .ESTRELLA-ANIMADA-3:hover {
+    /* CAMBIA A LA VERSIÓN VIOLETA AL HACER HOVER */
+  background-image: url(./img/recursos/ESTRELLA\ VIOLETA\ 2.png);
+  transform: rotate(-43.17deg);
+}
+/* Y repites este patrón para ESTRELLA-ANIMADA-2 y ESTRELLA-ANIMADA-3 */

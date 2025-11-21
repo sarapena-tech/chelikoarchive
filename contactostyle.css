@@ -1,0 +1,278 @@
+.CONTACTO {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+  min-width: 1930px;
+  min-height: 2407px;
+}
+
+.krona-one-regular {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.CONTACTO .div {
+  position: relative;
+  width: 1930px;
+  height: 2407px;
+  background-color: #000000;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.CONTACTO .div::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.CONTACTO .LOGO-PAG {
+  position: absolute;
+  top: 156px;
+  left: 62px;
+  width: 822px;
+  height: 231px;
+  display: flex;
+}
+
+.CONTACTO .frame {
+  width: 822px;
+  height: 231px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  overflow: hidden;
+}
+
+.CONTACTO .LOGO-PAGINA {
+  margin-top: -221px;
+  width: 673px;
+  margin-bottom: -221px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.CONTACTO .BANNER {
+  position: absolute;
+  top: 387px;
+  left: 57px;
+  width: 1822px;
+  height: 773px;
+  display: flex;
+}
+
+.CONTACTO .imagen-portafolio-wrapper {
+  height: 773px;
+  flex: 1;
+  align-items: center;
+  border: 16px solid;
+  border-color: #7a13d3;
+  display: flex;
+  overflow: hidden;
+}
+
+.CONTACTO .imagen-portafolio {
+  margin-top: 2.7px;
+  height: 921.12px;
+  margin-left: -21px;
+  margin-right: 21px;
+  flex: 1;
+  aspect-ratio: 1.98;
+  object-fit: cover;
+}
+
+.CONTACTO .TITULO-PAGE {
+  position: absolute;
+  top: 574px;
+  left: 91px;
+  width: 1754px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  /* Asegura que no haya otra regla que sobreescriba esto */
+  margin: 0 !important;
+  padding: 0 !important;
+  /* Agregamos z-index por si acaso */
+  z-index: 20; 
+}
+
+/* 2. ESTILOS PARA EL WRAPPER (Div con class="TITULO-PAGE-wrapper") */
+/* Este wrapper se encarga de centrar la imagen dentro del contenedor absoluto */
+.CONTACTO .TITULO-PAGE-wrapper {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centra la imagen horizontalmente */
+  align-items: center; /* Centra la imagen verticalmente */
+  overflow: hidden;
+}
+
+/* 3. ESTILOS PARA LA IMAGEN (<img> dentro del wrapper) */
+/* Usamos el selector de etiqueta para dirigirnos solo a la imagen y evitar 
+   los conflictos de la clase repetida (.TITULO-PAGE) */
+.CONTACTO .TITULO-PAGE-IMG {
+  /* La imagen debe llenar el espacio del wrapper sin forzar la posición. */
+  width: 100%; 
+  height: 100%;
+  aspect-ratio: 1;
+  object-fit: contain; /* Muestra toda la imagen sin cortarla */
+  
+  /* ELIMINACIÓN DE MARGENES CONFLICTIVOS QUE CAUSABAN LA DESALINEACIÓN */
+  margin: 0 !important;
+}
+
+.CONTACTO .IG {
+  position: absolute;
+  top: 1359px;
+  left: 131px;
+  width: 778px;
+  height: 1048px;
+}
+
+.CONTACTO .rectangle {
+  width: 778px;
+  height: 1048px;
+  border-radius: 100px;
+}
+
+.CONTACTO .TELEFONO {
+  position: absolute;
+  top: 1623px;
+  left: 1051px;
+  width: 212px;
+  height: 212px;
+  background-image: url(./img/recursos/ICON\ MEDIO.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.CONTACTO .EMAIL {
+  position: absolute;
+  top: 1904px;
+  left: 1069px;
+  width: 176px;
+  height: 176px;
+  display: flex;
+}
+
+.CONTACTO .LOGO-MAIL {
+  width: 178px;
+  height: 176px;
+  position: relative;
+}
+
+.CONTACTO .ellipse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 176px;
+  height: 176px;
+  background-color: #ffffff;
+  border-radius: 88px;
+}
+
+.CONTACTO .text-wrapper {
+  position: absolute;
+  top: 39px;
+  left: 25px;
+  width: 127px;
+  height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #000000;
+  font-size: 75px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.CONTACTO .NUMERO {
+  position: absolute;
+  top: 1709px;
+  left: 1263px;
+  width: 371px;
+  height: 40px;
+  display: flex;
+}
+
+.CONTACTO .text-wrapper-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 371px;
+  height: 40px;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.CONTACTO .CORREO {
+  position: absolute;
+  top: 1972px;
+  left: 1263px;
+  width: 519px;
+  height: 40px;
+  display: flex;
+}
+
+.CONTACTO .text-wrapper-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 519px;
+  height: 40px;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+/* Inject original CSS code here */
+
+.CONTACTO .text-wrapper-2 a,
+.CONTACTO .text-wrapper-3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.CONTACTO .text-wrapper-2 a:hover,
+.CONTACTO .text-wrapper-2 a:focus,
+.CONTACTO .text-wrapper-3 a:hover,
+.CONTACTO .text-wrapper-3 a:focus {
+  text-decoration: underline;
+  outline: 2px solid #7a13d3;
+  outline-offset: 4px;
+}
+
+.CONTACTO .IG a:focus {
+  outline: 2px solid #7a13d3;
+  outline-offset: 4px;
+  border-radius: 107%;
+}
+
+.CONTACTO .NUMERO,
+.CONTACTO .CORREO {
+  font-style: normal;
+}
+
+.CONTACTO .NUMERO a,
+.CONTACTO .CORREO a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}

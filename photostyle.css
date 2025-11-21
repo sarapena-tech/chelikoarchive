@@ -1,0 +1,482 @@
+.FOTOS {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+  min-width: 1930px;
+  min-height: 7263px;
+}
+
+.krona-one-regular {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.FOTOS .div {
+  position: relative;
+  width: 1930px;
+  height: 7263px;
+  background-color: #000000;
+  overflow-y: scroll;
+}
+
+.FOTOS .div::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.FOTOS .LOGO-PAGE {
+  position: absolute;
+  top: 156px;
+  left: 62px;
+  width: 822px;
+  height: 231px;
+  display: flex;
+}
+
+.FOTOS .frame {
+  width: 822px;
+  height: 231px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.FOTOS .LOGO-PAGINA {
+  margin-top: -221px;
+  width: 673px;
+  margin-bottom: -221px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.FOTOS .BANNER {
+  position: absolute;
+  top: 387px;
+  left: 57px;
+  width: 1822px;
+  height: 773px;
+  display: flex;
+}
+
+.FOTOS .imagen-portafolio-wrapper {
+  flex: 1;
+  justify-content: center;
+  overflow: hidden;
+  border: 16px solid;
+  border-color: #7a13d3;
+  height: 773px;
+  display: flex;
+}
+
+.FOTOS .imagen-portafolio {
+  margin-top: -114px;
+  margin-left: 0;
+  width: 1980.4px;
+  margin-bottom: -114.2px;
+  aspect-ratio: 1.98;
+  object-fit: cover;
+}
+
+.FOTOS .TITULO-PAGE {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1593px;
+  height: 379px;
+  background-image: url(./img/recursos/TITULO\ PHOTO.png);
+  background-size: 100% 100%;
+}
+
+.FOTOS .IMG {
+  top: 1391px;
+  left: 135px;
+  width: 748px;
+  height: 756px;
+  background-image: url(./img/photos/img1.jpg);
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.FOTOS .IMG-2 {
+  top: 1391px;
+  left: 927px;
+  width: 748px;
+  height: 756px;
+  background-image: url(./img/photos/img\ 2.jpg);
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.FOTOS .IMG-3 {
+  top: 2215px;
+  left: 135px;
+  width: 748px;
+  height: 997px;
+  background-image: url(./img/photos/img\ 3.jpg);
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.FOTOS .IMG-4 {
+  top: 2215px;
+  left: 927px;
+  width: 888px;
+  height: 1148px;
+  background-image: url(./img/photos/img4.jpg);
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.FOTOS .IMG-5 {
+  top: 3280px;
+  left: 135px;
+  width: 748px;
+  height: 997px;
+  background-image: url(./img/photos/img5.jpg);
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.FOTOS .IMG-6 {
+  top: 3473px;
+  left: 997px;
+  width: 748px;
+  height: 756px;
+  background-image: url(./img/photos/img6.jpg);
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.FOTOS .IMG-7 {
+  top: 4407px;
+  left: 135px;
+  width: 792px;
+  height: 1180px;
+  background-image: url(./img/photos/img7.jpg);
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.FOTOS .IMG-8 {
+  top: 4407px;
+  left: 997px;
+  width: 792px;
+  height: 1180px;
+  background-image: url(./img/photos/img8.jpg);
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.FOTOS .IMG-9 {
+  top: 5697px;
+  left: 93px;
+  width: 857px;
+  height: 1143px;
+  background-image: url(./img/photos/img9.jpg);
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.FOTOS .IMG-10 {
+  top: 5697px;
+  left: 994px;
+  width: 748px;
+  height: 997px;
+  background-image: url(./img/photos/img10.jpg);
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.FOTOS .TOP-TEXT {
+  position: absolute;
+  top: 7036px;
+  left: 1525px;
+  width: 176px;
+  height: 80px;
+  display: flex;
+}
+
+.FOTOS .text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 176px;
+  height: 80px;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.FOTOS {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+  min-width: 1930px;
+  min-height: 7263px;
+}
+
+.FOTOS .div {
+  position: relative;
+  width: 1930px;
+  height: 7263px;
+  background-color: #000000;
+  overflow-y: scroll;
+}
+
+.FOTOS .div::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.FOTOS .LOGO-PAGE {
+  position: absolute;
+  top: 156px;
+  left: 62px;
+  width: 822px;
+  height: 231px;
+  display: flex;
+}
+
+.FOTOS .frame {
+  width: 822px;
+  height: 231px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.FOTOS .LOGO-PAGINA {
+  margin-top: -221px;
+  width: 673px;
+  margin-bottom: -221px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.FOTOS .BANNER {
+  position: absolute;
+  top: 387px;
+  left: 57px;
+  width: 1822px;
+  height: 773px;
+  display: flex;
+}
+
+.FOTOS .imagen-portafolio-wrapper {
+  flex: 1;
+  justify-content: center;
+  overflow: hidden;
+  border: 16px solid;
+  border-color: #7a13d3;
+  height: 773px;
+  display: flex;
+}
+
+.FOTOS .imagen-portafolio {
+  margin-top: -114px;
+  margin-left: 0;
+  width: 1980.4px;
+  margin-bottom: -114.2px;
+  aspect-ratio: 1.98;
+  object-fit: cover;
+}
+
+.FOTOS .TITULO-PAGE {
+  position: absolute;
+  top: 584px;
+  left: 179px;
+  width: 1593px;
+  height: 379px;
+  background-image: url(./img/recursos/TITULO\ PHOTO.png);
+  background-size: 100% 100%;
+}
+
+.FOTOS .gallery {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.FOTOS .gallery figure {
+  margin: 0;
+  padding: 0;
+}
+
+.FOTOS .gallery .img-content {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.FOTOS .IMG {
+  position: absolute;
+  top: 1391px;
+  left: 135px;
+  width: 748px;
+  height: 756px;
+}
+
+.FOTOS .IMG .img-content {
+  background-image: url(./img/rectangle-29.png);
+}
+
+.FOTOS .IMG-2 {
+  position: absolute;
+  top: 1391px;
+  left: 927px;
+  width: 748px;
+  height: 756px;
+}
+
+.FOTOS .IMG-2 .img-content {
+  background-image: url(./img/rectangle-30.png);
+}
+
+.FOTOS .IMG-3 {
+  position: absolute;
+  top: 2215px;
+  left: 135px;
+  width: 748px;
+  height: 997px;
+}
+
+.FOTOS .IMG-3 .img-content {
+  background-image: url(./img/rectangle-31.png);
+}
+
+.FOTOS .IMG-4 {
+  position: absolute;
+  top: 2215px;
+  left: 927px;
+  width: 888px;
+  height: 1148px;
+}
+
+.FOTOS .IMG-4 .img-content {
+  background-image: url(./img/rectangle-32.png);
+}
+
+.FOTOS .IMG-5 {
+  position: absolute;
+  top: 3280px;
+  left: 135px;
+  width: 748px;
+  height: 997px;
+}
+
+.FOTOS .IMG-5 .img-content {
+  background-image: url(./img/rectangle-33.png);
+}
+
+.FOTOS .IMG-6 {
+  position: absolute;
+  top: 3473px;
+  left: 997px;
+  width: 748px;
+  height: 756px;
+}
+
+.FOTOS .IMG-6 .img-content {
+  background-image: url(./img/rectangle-34.png);
+}
+
+.FOTOS .IMG-7 {
+  position: absolute;
+  top: 4407px;
+  left: 135px;
+  width: 792px;
+  height: 1180px;
+}
+
+.FOTOS .IMG-7 .img-content {
+  background-image: url(./img/rectangle-35.png);
+}
+
+.FOTOS .IMG-8 {
+  position: absolute;
+  top: 4407px;
+  left: 997px;
+  width: 792px;
+  height: 1180px;
+}
+
+.FOTOS .IMG-8 .img-content {
+  background-image: url(./img/rectangle-36.png);
+}
+
+.FOTOS .IMG-9 {
+  position: absolute;
+  top: 5697px;
+  left: 93px;
+  width: 857px;
+  height: 1143px;
+}
+
+.FOTOS .IMG-9 .img-content {
+  background-image: url(./img/rectangle-37.png);
+}
+
+.FOTOS .IMG-10 {
+  position: absolute;
+  top: 5697px;
+  left: 994px;
+  width: 748px;
+  height: 997px;
+}
+
+.FOTOS .IMG-10 .img-content {
+  background-image: url(./img/rectangle-38.png);
+}
+
+.FOTOS .TOP-TEXT {
+  position: absolute;
+  top: 7036px;
+  left: 1525px;
+  width: 176px;
+  height: 80px;
+  display: flex;
+}
+
+.FOTOS .text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 176px;
+  height: 80px;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.FOTOS .text-wrapper:hover {
+  opacity: 0.8;
+}
+
+.FOTOS .text-wrapper:focus {
+  outline: 2px solid #7a13d3;
+  outline-offset: 4px;
+}

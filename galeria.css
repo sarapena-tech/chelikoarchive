@@ -1,0 +1,2140 @@
+.GALERA {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+  min-width: 1930px;
+  min-height: 9110px;
+}
+
+.krona-one-regular {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.GALERA .div {
+  position: relative;
+  width: 1930px;
+  height: 9110px;
+  background-color: #000000;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.GALERA .div::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.GALERA .LOGO-PAGINA {
+  position: absolute;
+  top: 156px;
+  left: 62px;
+  width: 822px;
+  height: 231px;
+  display: flex;
+}
+
+.GALERA .frame {
+  width: 822px;
+  height: 231px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  overflow: hidden;
+}
+
+.GALERA .img {
+  margin-top: -221px;
+  width: 673px;
+  margin-bottom: -221px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.GALERA .BANNER {
+  position: absolute;
+  top: 387px;
+  left: 57px;
+  width: 1822px;
+  height: 773px;
+  display: flex;
+}
+
+.GALERA .imagen-portafolio-wrapper {
+  flex: 1;
+  justify-content: center;
+  overflow: hidden;
+  border: 16px solid;
+  border-color: #7a13d3;
+  height: 773px;
+  display: flex;
+}
+
+.GALERA .imagen-portafolio {
+  margin-top: -114px;
+  margin-left: 0;
+  width: 1980.4px;
+  margin-bottom: -114.2px;
+  aspect-ratio: 1.98;
+  object-fit: cover;
+}
+
+.GALERA .TITULO-GALERIA {
+  position: absolute;
+  top: 560px;
+  left: 247px;
+  width: 1448px;
+  height: 479px;
+  display: flex;
+}
+
+.GALERA .TITULO-GALERIA-wrapper {
+  width: 1448px;
+  height: 479px;
+  display: flex;
+  overflow: hidden;
+}
+
+.GALERA .TITULO-GALERIA-2 {
+  margin-top: -508px;
+  margin-left: -52px;
+  width: 1559px;
+  margin-bottom: -572px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.GALERA .COMP {
+  top: 1201px;
+  left: -799px;
+  width: 770px;
+  height: 986px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VARIANTE {
+  width: 770px;
+  height: 986px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad {
+  left: 20px;
+  width: 612px;
+  height: 872px;
+  background-image: url(./img/rectangle-12.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group {
+  position: absolute;
+  top: 94px;
+  left: 138px;
+  width: 612px;
+  height: 872px;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n {
+  position: absolute;
+  width: 73.69%;
+  height: 65.37%;
+  top: 17.32%;
+  left: 11.44%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER {
+  position: absolute;
+  top: 1270px;
+  left: 220px;
+  width: 612px;
+  height: 872px;
+  background-image: url(./img/rectangle-12-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .IMG-HOVER-2 {
+  position: absolute;
+  top: 1223px;
+  left: 920px;
+  width: 842px;
+  height: 1124px;
+  background-image: url(./img/rectangle-13.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .VARIANTE-wrapper {
+  top: 1288px;
+  left: -1076px;
+  width: 971px;
+  height: 1610px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VARIANTE-2 {
+  width: 971px;
+  height: 1610px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-2 {
+  left: 20px;
+  width: 842px;
+  height: 1124px;
+  background-image: url(./img/rectangle-13-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .a-o-de-creaci-n-wrapper {
+  top: 466px;
+  left: 109px;
+  width: 842px;
+  height: 1124px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .text-wrapper {
+  width: 82.42%;
+  height: 69.75%;
+  top: 17.35%;
+  left: 9.98%;
+  font-size: 64px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-3 {
+  position: absolute;
+  top: 2215px;
+  left: 195px;
+  width: 678px;
+  height: 1028px;
+  background-image: url(./img/rectangle-14-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .VAR-wrapper {
+  top: 2256px;
+  left: -919px;
+  width: 746px;
+  height: 1200px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR {
+  width: 746px;
+  height: 1200px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-3 {
+  left: 20px;
+  width: 678px;
+  height: 1028px;
+  background-image: url(./img/rectangle-14.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .div-wrapper {
+  top: 152px;
+  left: 48px;
+  width: 678px;
+  height: 1028px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .p {
+  width: 77.88%;
+  height: 70.04%;
+  top: 13.23%;
+  left: 11.06%;
+  font-size: 48px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .COMP-2 {
+  top: 3264px;
+  left: -1471px;
+  width: 810px;
+  height: 1267px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-2 {
+  width: 809.98px;
+  height: 1267px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-4 {
+  left: 20px;
+  width: 714px;
+  height: 889px;
+  background-image: url(./img/rectangle-15.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .a-o-t-cnica-wrapper {
+  top: 358px;
+  left: 69px;
+  width: 721px;
+  height: 889px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-t-cnica {
+  position: absolute;
+  width: 81.79%;
+  height: 67.04%;
+  top: 18.45%;
+  left: 9.38%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-4 {
+  position: absolute;
+  top: 2385px;
+  left: 965px;
+  width: 714px;
+  height: 889px;
+  background-image: url(./img/rectangle-15-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .IMG-HOVER-5 {
+  position: absolute;
+  top: 3346px;
+  left: 295px;
+  width: 670px;
+  height: 966px;
+  background-image: url(./img/image.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .COMP-3 {
+  top: 549px;
+  left: -1203px;
+  width: 730px;
+  height: 1136px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-3 {
+  width: 730px;
+  height: 1136px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-5 {
+  left: 20px;
+  width: 670px;
+  height: 966px;
+  background-image: url(./img/rectangle-18.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-2 {
+  top: 150px;
+  left: 40px;
+  width: 670px;
+  height: 966px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-2 {
+  width: 81.19%;
+  height: 66.25%;
+  top: 19.05%;
+  left: 9.55%;
+  font-size: 48px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .COMP-4 {
+  top: 3775px;
+  left: -1875px;
+  width: 781px;
+  height: 1199px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-4 {
+  width: 781px;
+  height: 1199px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-6 {
+  left: 20px;
+  width: 605px;
+  height: 919px;
+  background-image: url(./img/rectangle-16.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-3 {
+  top: 260px;
+  left: 156px;
+  width: 605px;
+  height: 919px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-3 {
+  width: 81.32%;
+  height: 70.51%;
+  top: 12.84%;
+  left: 9.26%;
+  font-size: 48px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-6 {
+  position: absolute;
+  top: 3456px;
+  left: 1044px;
+  width: 605px;
+  height: 919px;
+  background-image: url(./img/rectangle-16-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .COMP-5 {
+  top: 4615px;
+  left: -2249px;
+  width: 832px;
+  height: 1544px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-5 {
+  width: 832px;
+  height: 1544px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-7 {
+  left: 52px;
+  width: 760px;
+  height: 1190px;
+  background-image: url(./img/rectangle-19.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-4 {
+  top: 334px;
+  left: 20px;
+  width: 760px;
+  height: 1190px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-4 {
+  width: 86.32%;
+  height: 68.40%;
+  top: 14.45%;
+  left: 10.53%;
+  font-size: 64px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-7 {
+  position: absolute;
+  top: 4415px;
+  left: 171px;
+  width: 760px;
+  height: 1190px;
+  background-image: url(./img/rectangle-19-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .COMP-6 {
+  top: 5391px;
+  left: -4181px;
+  width: 912px;
+  height: 1592px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-6 {
+  width: 912px;
+  height: 1592px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-8 {
+  left: 20px;
+  width: 872px;
+  height: 1200px;
+  background-image: url(./img/rectangle-20-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-5 {
+  top: 372px;
+  left: 20px;
+  width: 872px;
+  height: 1200px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-5 {
+  width: 74.31%;
+  height: 76.67%;
+  top: 14.92%;
+  left: 12.50%;
+  font-size: 64px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-8 {
+  position: absolute;
+  top: 4507px;
+  left: 972px;
+  width: 872px;
+  height: 1200px;
+  background-image: url(./img/rectangle-20.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .IMG-HOVER-9 {
+  position: absolute;
+  top: 5775px;
+  left: 127px;
+  width: 792px;
+  height: 1016px;
+  background-image: url(./img/rectangle-21-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .COMP-7 {
+  top: 6611px;
+  left: -2789px;
+  width: 914px;
+  height: 1297px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-7 {
+  width: 914px;
+  height: 1297px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-9 {
+  left: 20px;
+  width: 792px;
+  height: 1016px;
+  background-image: url(./img/rectangle-21.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-6 {
+  top: 261px;
+  left: 102px;
+  width: 792px;
+  height: 1016px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-6 {
+  width: 78.28%;
+  height: 75.59%;
+  top: 14.86%;
+  left: 11.36%;
+  font-size: 48px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .COMP-8 {
+  top: 7561px;
+  left: -1817px;
+  width: 940px;
+  height: 1718px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-8 {
+  width: 940px;
+  height: 1718px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-10 {
+  left: 20px;
+  width: 865px;
+  height: 1261px;
+  background-image: url(./img/rectangle-22.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-7 {
+  top: 437px;
+  left: 55px;
+  width: 865px;
+  height: 1261px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-7 {
+  width: 82.31%;
+  height: 81.21%;
+  top: 7.61%;
+  left: 8.79%;
+  font-size: 64px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-10 {
+  position: absolute;
+  top: 5885px;
+  left: 965px;
+  width: 865px;
+  height: 1261px;
+  background-image: url(./img/rectangle-22-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .COMP-9 {
+  top: 8440px;
+  left: -1589px;
+  width: 792px;
+  height: 1358px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-9 {
+  width: 791.78px;
+  height: 1358px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-11 {
+  left: 20px;
+  width: 743px;
+  height: 1080px;
+  background-image: url(./img/rectangle-23.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-8 {
+  top: 258px;
+  left: 29px;
+  width: 743px;
+  height: 1080px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-8 {
+  width: 85.76%;
+  height: 74.81%;
+  top: 14.17%;
+  left: 7.14%;
+  font-size: 64px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-11 {
+  position: absolute;
+  top: 6967px;
+  left: 136px;
+  width: 743px;
+  height: 1080px;
+  background-image: url(./img/rectangle-23-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .COMP-10 {
+  top: 8374px;
+  left: 2042px;
+  width: 988px;
+  height: 1071px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-10 {
+  width: 988px;
+  height: 1071px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-12 {
+  left: 20px;
+  width: 948px;
+  height: 780px;
+  background-image: url(./img/rectangle-24.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-9 {
+  top: 271px;
+  left: 20px;
+  width: 948px;
+  height: 780px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-9 {
+  width: 78.48%;
+  height: 71.79%;
+  top: 14.10%;
+  left: 10.76%;
+  font-size: 64px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-12 {
+  position: absolute;
+  top: 7293px;
+  left: 921px;
+  width: 948px;
+  height: 780px;
+  background-image: url(./img/rectangle-24-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .COMP-11 {
+  top: 8397px;
+  left: 2447px;
+  width: 1164px;
+  height: 1161px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-11 {
+  width: 1164px;
+  height: 1161px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-13 {
+  left: 172px;
+  width: 972px;
+  height: 732px;
+  background-image: url(./img/rectangle-25-2.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-10 {
+  top: 409px;
+  left: 20px;
+  width: 972px;
+  height: 732px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-10 {
+  width: 79.84%;
+  height: 69.95%;
+  top: 16.12%;
+  left: 11.73%;
+  font-size: 64px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-13 {
+  position: absolute;
+  top: 8181px;
+  left: 173px;
+  width: 972px;
+  height: 732px;
+  background-image: url(./img/rectangle-25.png);
+  background-size: 100% 100%;
+}
+
+.GALERA .COMP-12 {
+  top: 8212px;
+  left: 2151px;
+  width: 632px;
+  height: 1031px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-12 {
+  width: 632px;
+  height: 1031px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-14 {
+  left: 20px;
+  width: 516px;
+  height: 703px;
+  background-image: url(./img/rectangle-17-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-11 {
+  top: 308px;
+  left: 96px;
+  width: 516px;
+  height: 703px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-11 {
+  width: 85.27%;
+  height: 85.63%;
+  top: 6.26%;
+  left: 6.59%;
+  font-size: 40px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-14 {
+  position: absolute;
+  top: 8180px;
+  left: 1196px;
+  width: 516px;
+  height: 703px;
+  background-image: url(./img/rectangle-17.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .TEXT-INTERA {
+  position: absolute;
+  top: 8964px;
+  left: 1647px;
+  width: 176px;
+  height: 80px;
+  display: flex;
+}
+
+.GALERA .text-wrapper-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 176px;
+  height: 80px;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+/* Inject original CSS code here from globals.css */
+
+.GALERA {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+  min-width: 1930px;
+  min-height: 9110px;
+}
+
+.GALERA .div {
+  position: relative;
+  width: 1930px;
+  height: 9110px;
+  background-color: #000000;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.GALERA .div::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.GALERA .LOGO-PAGINA {
+  position: absolute;
+  top: 156px;
+  left: 62px;
+  width: 822px;
+  height: 231px;
+  display: flex;
+}
+
+.GALERA .frame {
+  width: 822px;
+  height: 231px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  overflow: hidden;
+}
+
+.GALERA .img {
+  margin-top: -221px;
+  width: 673px;
+  margin-bottom: -221px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.GALERA .BANNER {
+  position: absolute;
+  top: 387px;
+  left: 57px;
+  width: 1822px;
+  height: 773px;
+  display: flex;
+}
+
+.GALERA .imagen-portafolio-wrapper {
+  flex: 1;
+  justify-content: center;
+  overflow: hidden;
+  border: 16px solid;
+  border-color: #7a13d3;
+  height: 773px;
+  display: flex;
+}
+
+.GALERA .imagen-portafolio {
+  margin-top: -114px;
+  margin-left: 0;
+  width: 1980.4px;
+  margin-bottom: -114.2px;
+  aspect-ratio: 1.98;
+  object-fit: cover;
+}
+
+.GALERA .TITULO-GALERIA {
+  position: absolute;
+  top: 560px;
+  left: 247px;
+  width: 1448px;
+  height: 479px;
+  display: flex;
+}
+
+.GALERA .TITULO-GALERIA-wrapper {
+  width: 1448px;
+  height: 479px;
+  display: flex;
+  overflow: hidden;
+}
+
+.GALERA .TITULO-GALERIA-2 {
+  margin-top: -508px;
+  margin-left: -52px;
+  width: 1559px;
+  margin-bottom: -572px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.GALERA .COMP {
+  top: 1201px;
+  left: -799px;
+  width: 770px;
+  height: 986px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VARIANTE {
+  width: 770px;
+  height: 986px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad {
+  left: 20px;
+  width: 612px;
+  height: 872px;
+  background-image: url(./img/rectangle-12.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group {
+  position: absolute;
+  top: 94px;
+  left: 138px;
+  width: 612px;
+  height: 872px;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n {
+  position: absolute;
+  width: 73.69%;
+  height: 65.37%;
+  top: 17.32%;
+  left: 11.44%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER {
+  position: absolute;
+  top: 1270px;
+  left: 220px;
+  width: 612px;
+  height: 872px;
+  background-image: url(./img/ilustraciones/img\ 1.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .IMG-HOVER-2 {
+  position: absolute;
+  top: 1223px;
+  left: 920px;
+  width: 842px;
+  height: 1124px;
+  background-image: url(./img/ilustraciones/img\ 2.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .VARIANTE-wrapper {
+  top: 1288px;
+  left: -1076px;
+  width: 971px;
+  height: 1610px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VARIANTE-2 {
+  width: 971px;
+  height: 1610px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-2 {
+  left: 20px;
+  width: 842px;
+  height: 1124px;
+  background-image: url(./img/rectangle-13-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .a-o-de-creaci-n-wrapper {
+  top: 466px;
+  left: 109px;
+  width: 842px;
+  height: 1124px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .text-wrapper {
+  width: 82.42%;
+  height: 69.75%;
+  top: 17.35%;
+  left: 9.98%;
+  font-size: 64px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-3 {
+  position: absolute;
+  top: 2215px;
+  left: 195px;
+  width: 678px;
+  height: 1028px;
+  background-image: url(./img/ilustraciones/img\ 3.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .VAR-wrapper {
+  top: 2256px;
+  left: -919px;
+  width: 746px;
+  height: 1200px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR {
+  width: 746px;
+  height: 1200px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-3 {
+  left: 20px;
+  width: 678px;
+  height: 1028px;
+  background-image: url(./img/rectangle-14.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .div-wrapper {
+  top: 152px;
+  left: 48px;
+  width: 678px;
+  height: 1028px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .p {
+  width: 77.88%;
+  height: 70.04%;
+  top: 13.23%;
+  left: 11.06%;
+  font-size: 48px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .COMP-2 {
+  top: 3264px;
+  left: -1471px;
+  width: 810px;
+  height: 1267px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-2 {
+  width: 809.98px;
+  height: 1267px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-4 {
+  left: 20px;
+  width: 714px;
+  height: 889px;
+  background-image: url(./img/rectangle-15.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .a-o-t-cnica-wrapper {
+  top: 358px;
+  left: 69px;
+  width: 721px;
+  height: 889px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-t-cnica {
+  position: absolute;
+  width: 81.79%;
+  height: 67.04%;
+  top: 18.45%;
+  left: 9.38%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-4 {
+  position: absolute;
+  top: 2385px;
+  left: 965px;
+  width: 714px;
+  height: 889px;
+  background-image: url(./img/ilustraciones/img4.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .IMG-HOVER-5 {
+  position: absolute;
+  top: 3346px;
+  left: 295px;
+  width: 670px;
+  height: 966px;
+  background-image: url(./img/ilustraciones/img5.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .COMP-3 {
+  top: 549px;
+  left: -1203px;
+  width: 730px;
+  height: 1136px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-3 {
+  width: 730px;
+  height: 1136px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-5 {
+  left: 20px;
+  width: 670px;
+  height: 966px;
+  background-image: url(./img/rectangle-18.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-2 {
+  top: 150px;
+  left: 40px;
+  width: 670px;
+  height: 966px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-2 {
+  width: 81.19%;
+  height: 66.25%;
+  top: 19.05%;
+  left: 9.55%;
+  font-size: 48px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .COMP-4 {
+  top: 3775px;
+  left: -1875px;
+  width: 781px;
+  height: 1199px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-4 {
+  width: 781px;
+  height: 1199px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-6 {
+  left: 20px;
+  width: 605px;
+  height: 919px;
+  background-image: url(./img/rectangle-16.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-3 {
+  top: 260px;
+  left: 156px;
+  width: 605px;
+  height: 919px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-3 {
+  width: 81.32%;
+  height: 70.51%;
+  top: 12.84%;
+  left: 9.26%;
+  font-size: 48px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-6 {
+  position: absolute;
+  top: 3456px;
+  left: 1044px;
+  width: 605px;
+  height: 919px;
+  background-image: url(./img/ilustraciones/img\ 6.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .COMP-5 {
+  top: 4615px;
+  left: -2249px;
+  width: 832px;
+  height: 1544px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-5 {
+  width: 832px;
+  height: 1544px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-7 {
+  left: 52px;
+  width: 760px;
+  height: 1190px;
+  background-image: url(./img/rectangle-19.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-4 {
+  top: 334px;
+  left: 20px;
+  width: 760px;
+  height: 1190px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-4 {
+  width: 86.32%;
+  height: 68.40%;
+  top: 14.45%;
+  left: 10.53%;
+  font-size: 64px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-7 {
+  position: absolute;
+  top: 4415px;
+  left: 171px;
+  width: 760px;
+  height: 1190px;
+  background-image: url(./img/ilustraciones/img\ 7.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .COMP-6 {
+  top: 5391px;
+  left: -4181px;
+  width: 912px;
+  height: 1592px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-6 {
+  width: 912px;
+  height: 1592px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-8 {
+  left: 20px;
+  width: 872px;
+  height: 1200px;
+  background-image: url(./img/rectangle-20-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-5 {
+  top: 372px;
+  left: 20px;
+  width: 872px;
+  height: 1200px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-5 {
+  width: 74.31%;
+  height: 76.67%;
+  top: 14.92%;
+  left: 12.50%;
+  font-size: 64px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-8 {
+  position: absolute;
+  top: 4507px;
+  left: 972px;
+  width: 872px;
+  height: 1200px;
+  background-image: url(./img/ilustraciones/img\ 8.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .IMG-HOVER-9 {
+  position: absolute;
+  top: 5775px;
+  left: 127px;
+  width: 792px;
+  height: 1016px;
+  background-image: url(./img/ilustraciones/img\ 9.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .COMP-7 {
+  top: 6611px;
+  left: -2789px;
+  width: 914px;
+  height: 1297px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-7 {
+  width: 914px;
+  height: 1297px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-9 {
+  left: 20px;
+  width: 792px;
+  height: 1016px;
+  background-image: url(./img/rectangle-21.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-6 {
+  top: 261px;
+  left: 102px;
+  width: 792px;
+  height: 1016px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-6 {
+  width: 78.28%;
+  height: 75.59%;
+  top: 14.86%;
+  left: 11.36%;
+  font-size: 48px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .COMP-8 {
+  top: 7561px;
+  left: -1817px;
+  width: 940px;
+  height: 1718px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-8 {
+  width: 940px;
+  height: 1718px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-10 {
+  left: 20px;
+  width: 865px;
+  height: 1261px;
+  background-image: url(./img/rectangle-22.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-7 {
+  top: 437px;
+  left: 55px;
+  width: 865px;
+  height: 1261px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-7 {
+  width: 82.31%;
+  height: 81.21%;
+  top: 7.61%;
+  left: 8.79%;
+  font-size: 64px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-10 {
+  position: absolute;
+  top: 5885px;
+  left: 965px;
+  width: 865px;
+  height: 1261px;
+  background-image: url(./img/ilustraciones/img\ 10.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .COMP-9 {
+  top: 8440px;
+  left: -1589px;
+  width: 792px;
+  height: 1358px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-9 {
+  width: 791.78px;
+  height: 1358px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-11 {
+  left: 20px;
+  width: 743px;
+  height: 1080px;
+  background-image: url(./img/rectangle-23.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-8 {
+  top: 258px;
+  left: 29px;
+  width: 743px;
+  height: 1080px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-8 {
+  width: 85.76%;
+  height: 74.81%;
+  top: 14.17%;
+  left: 7.14%;
+  font-size: 64px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-11 {
+  position: absolute;
+  top: 6967px;
+  left: 136px;
+  width: 743px;
+  height: 1080px;
+  background-image: url(./img/ilustraciones/img\ 11.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .COMP-10 {
+  top: 8374px;
+  left: 2042px;
+  width: 988px;
+  height: 1071px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-10 {
+  width: 988px;
+  height: 1071px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-12 {
+  left: 20px;
+  width: 948px;
+  height: 780px;
+  background-image: url(./img/rectangle-24.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-9 {
+  top: 271px;
+  left: 20px;
+  width: 948px;
+  height: 780px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-9 {
+  width: 78.48%;
+  height: 71.79%;
+  top: 14.10%;
+  left: 10.76%;
+  font-size: 64px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-12 {
+  position: absolute;
+  top: 7293px;
+  left: 921px;
+  width: 948px;
+  height: 780px;
+  background-image: url(./img/ilustraciones/img\ 12.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .COMP-11 {
+  top: 8397px;
+  left: 2447px;
+  width: 1164px;
+  height: 1161px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-11 {
+  width: 1164px;
+  height: 1161px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-13 {
+  left: 172px;
+  width: 972px;
+  height: 732px;
+  background-image: url(./img/rectangle-25-2.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-10 {
+  top: 409px;
+  left: 20px;
+  width: 972px;
+  height: 732px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-10 {
+  width: 79.84%;
+  height: 69.95%;
+  top: 16.12%;
+  left: 11.73%;
+  font-size: 64px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-13 {
+  position: absolute;
+  top: 8181px;
+  left: 173px;
+  width: 972px;
+  height: 732px;
+  background-image: url(./img/ilustraciones/img\ 13.jpeg);
+  background-size: 100% 100%;
+}
+
+.GALERA .COMP-12 {
+  top: 8212px;
+  left: 2151px;
+  width: 632px;
+  height: 1031px;
+  position: absolute;
+  display: flex;
+}
+
+.GALERA .VAR-12 {
+  width: 632px;
+  height: 1031px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #8a38f5;
+}
+
+.GALERA .propiedad-14 {
+  left: 20px;
+  width: 516px;
+  height: 703px;
+  background-image: url(./img/rectangle-17-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.GALERA .propiedad-group-11 {
+  top: 308px;
+  left: 96px;
+  width: 516px;
+  height: 703px;
+  position: absolute;
+  background-color: #7a13d3;
+}
+
+.GALERA .a-o-de-creaci-n-11 {
+  width: 85.27%;
+  height: 85.63%;
+  top: 6.26%;
+  left: 6.59%;
+  font-size: 40px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.GALERA .IMG-HOVER-14 {
+  position: absolute;
+  top: 8180px;
+  left: 1196px;
+  width: 516px;
+  height: 703px;
+  background-image: url(./img/ilustraciones/img\ 14.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.GALERA .TEXT-INTERA {
+  position: absolute;
+  top: 8964px;
+  left: 1647px;
+  width: 176px;
+  height: 80px;
+  display: flex;
+}
+
+.GALERA .text-wrapper-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 176px;
+  height: 80px;
+  font-family: "Krona One";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.GALERA .text-wrapper-2:hover {
+  opacity: 0.8;
+}
+
+.GALERA .text-wrapper-2:focus {
+  outline: 2px solid #7a13d3;
+  outline-offset: 4px;
+}
